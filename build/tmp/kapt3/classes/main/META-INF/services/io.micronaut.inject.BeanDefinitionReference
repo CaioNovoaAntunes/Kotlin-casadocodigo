@@ -1,0 +1,10 @@
+br.com.zup.$AtualizaAutorControllerDefinitionClass
+br.com.zup.$$CadastraAutorControllerDefinition$InterceptedDefinitionClass
+br.com.zup.$$BuscaAutoresControllerDefinition$InterceptedDefinitionClass
+br.com.zup.$$AtualizaAutorControllerDefinition$InterceptedDefinitionClass
+br.com.zup.$$DeletarAutorControllerDefinition$InterceptedDefinitionClass
+br.com.zup.endereco.$EnderecoClient$InterceptedDefinitionClass
+br.com.zup.$BuscaAutoresControllerDefinitionClass
+br.com.zup.$CadastraAutorControllerDefinitionClass
+br.com.zup.$DeletarAutorControllerDefinitionClass
+br.com.zup.$AutorRepository$InterceptedDefinitionClass
