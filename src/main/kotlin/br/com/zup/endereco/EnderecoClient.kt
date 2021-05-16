@@ -9,6 +9,6 @@ import io.micronaut.http.client.annotation.Client
 
 @Client("https://viacep.com.br/ws/")
 interface EnderecoClient {
-    @Get("/{cep}/json", consumes =[MediaType.APPLICATION_JSON])
-    fun consultar(@QueryValue cep:String): HttpResponse<EnderecoResponseClient>
+    @Get("/{cep}/json", consumes =[MediaType.APPLICATION_XML])
+    fun consultar(@QueryValue cep:String): HttpResponse<EnderecoResponse>
 }

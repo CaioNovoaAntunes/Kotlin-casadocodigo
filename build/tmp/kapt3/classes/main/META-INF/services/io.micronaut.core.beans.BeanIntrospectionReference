@@ -1,3 +1,4 @@
-br.com.zup.endereco.$EnderecoResponseClient$IntrospectionRef
-br.com.zup.$Autor$IntrospectionRef
-br.com.zup.$NovoAutorRequest$IntrospectionRef
+br.com.zup.endereco.$EnderecoResponse$IntrospectionRef
+br.com.zup.autores.$Autor$IntrospectionRef
+br.com.zup.endereco.$Endereco$IntrospectionRef
+br.com.zup.autores.$NovoAutorRequest$IntrospectionRef

@@ -48,9 +48,13 @@ dependencies {
 
     //JPA
     runtime("io.micronaut.sql:micronaut-jdbc-hikari")
-    implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
-    runtime("com.h2database:h2")
+    implementation("mysql:mysql-connector-java:8.0.23")
+    //XML
+    implementation("io.micronaut.xml:micronaut-jackson-xml")
 
+    //TESTE
+    testImplementation ("org.mockito:mockito-core:3.10.0")
+    testImplementation ("com.h2database:h2:1.4.200")
 
 
 }
