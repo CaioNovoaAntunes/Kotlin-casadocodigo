@@ -2,3 +2,4 @@ br.com.zup.endereco.$EnderecoResponse$IntrospectionRef
 br.com.zup.autores.$Autor$IntrospectionRef
 br.com.zup.endereco.$Endereco$IntrospectionRef
 br.com.zup.autores.$NovoAutorRequest$IntrospectionRef
+br.com.zup.validacaocustomizada.$CarroRequest$IntrospectionRef
