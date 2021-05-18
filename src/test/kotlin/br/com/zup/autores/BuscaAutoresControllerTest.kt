@@ -26,9 +26,9 @@ internal class BuscaAutoresControllerTest {
 
     @BeforeEach
     fun setup() {
-        val responseClient = EnderecoResponse("11724060", "Rua Plínio Salgado", "", "sítio do campo", "pg", "sp")
+        val responseClient = EnderecoResponse("1112314", "XXXX", "", "XXX do campo", "pg", "sp")
         autor = Autor(
-            "caionovoa", "caio@email.com", "um grande lutador",
+            "caionovoa", "caio@email.com", "um grande XXX",
             Endereco(responseClient, "813")
         )
 
@@ -52,7 +52,7 @@ internal class BuscaAutoresControllerTest {
         Assertions.assertEquals(HttpStatus.OK, respose.status)
         Assertions.assertEquals("caionovoa", respose.body()!!.nome)
         Assertions.assertEquals("caio@email.com", respose.body()!!.email)
-        Assertions.assertEquals("um grande lutador", respose.body()!!.descricao)
+        Assertions.assertEquals("um XXXX lutador", respose.body()!!.descricao)
 
     }
 }

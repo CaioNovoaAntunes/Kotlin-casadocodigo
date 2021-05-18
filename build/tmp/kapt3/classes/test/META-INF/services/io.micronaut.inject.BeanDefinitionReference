@@ -1,2 +1,3 @@
 br.com.zup.$NossaCasaCodigoTestDefinitionClass
+br.com.zup.autores.$CriaAutorTestDefinitionClass
 br.com.zup.autores.$BuscaAutoresControllerTestDefinitionClass

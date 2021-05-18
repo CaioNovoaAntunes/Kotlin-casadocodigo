@@ -57,6 +57,11 @@ dependencies {
     testImplementation ("com.h2database:h2:1.4.200")
 
 
+    //XML
+    implementation("io.micronaut.xml:micronaut-jackson-xml")
+
+
+
 }
 
 
